@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    label 'docker-migration'
+    label 'homelab'
   }
   stages {
    stage('Build') {
